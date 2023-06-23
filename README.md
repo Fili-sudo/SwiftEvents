@@ -15,11 +15,28 @@ Pentru a rula cu succes aplicația este nevoie de instalarea următoarelor progr
 # setup și rulare
 1. se clonează repository-ului folosind `git clone `
 2. se intră în `SwiftEvents/backend/SwiftEvents.API/SwiftEvents.API/appsettings` și se
-setează următoarea secțiune conform datelor de pe sistemul gazdă:
+setează următoarea secțiune conform datelor de pe sistemul gazdă, resureselor create în
+Azure Portal și serviciului de mail SendGrid:
 ```Javascript
 "ConnectionStrings": {
     "Cstring": "Data Source={numele serverului};Initial Catalog=SwiftEvents;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False"
 }
+ "AzureAd": {
+    "Instance": "https://login.microsoftonline.com/",
+    "Domain": "qualified.domain.name",
+    "ClientId": "",
+    "TenantId": "common"
+  },
+  "AzureBlobConfiguration": {
+    "StorageAccountName": "swiftevents",
+    "StorageAccountKey": "{storage account key pentru azure blob storage}",
+    "ConnectionString": "{connection string pentru azure blob storage}",
+    "ContainerName": "development"
+  },
+  "SendGridEmailSettings": {
+    "ApiKey": "{api key pentru sendgrid}",
+    "EmailFrom": "{mail-ul de pe care se trimite mail}"
+  }
 ```
 3. se deschide un terminal în `SwiftEvents/frontend` și se rulează comanda `npm install`
 4. se deschide un terminal în  `SwiftEvents/backend/SwiftEvents.API/SwiftEvents.API` și se rulează comanda `dotnet run`
