@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftEvents.API", "SwiftEvents.API\SwiftEvents.API.csproj", "{FEADBDD8-AC98-4DF7-8E25-987431B14A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftEvents.Domain", "SwiftEvents.Domain\SwiftEvents.Domain.csproj", "{AA905134-43A5-4A4B-91A5-E3944F7234E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftEvents.Application", "SwiftEvents.Application\SwiftEvents.Application.csproj", "{86B6F820-AE8F-4944-82FB-ADD29304AB59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwiftEvents.Data_Access", "SwiftEvents.Data_Access\SwiftEvents.Data_Access.csproj", "{9BCCED90-AEE3-4D1C-90C2-1946736F7FB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEADBDD8-AC98-4DF7-8E25-987431B14A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEADBDD8-AC98-4DF7-8E25-987431B14A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEADBDD8-AC98-4DF7-8E25-987431B14A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEADBDD8-AC98-4DF7-8E25-987431B14A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA905134-43A5-4A4B-91A5-E3944F7234E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA905134-43A5-4A4B-91A5-E3944F7234E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA905134-43A5-4A4B-91A5-E3944F7234E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA905134-43A5-4A4B-91A5-E3944F7234E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B6F820-AE8F-4944-82FB-ADD29304AB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B6F820-AE8F-4944-82FB-ADD29304AB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B6F820-AE8F-4944-82FB-ADD29304AB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B6F820-AE8F-4944-82FB-ADD29304AB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCCED90-AEE3-4D1C-90C2-1946736F7FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCCED90-AEE3-4D1C-90C2-1946736F7FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCCED90-AEE3-4D1C-90C2-1946736F7FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCCED90-AEE3-4D1C-90C2-1946736F7FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A7487F1-AE71-45F8-9A00-B6A5D3E5371A}
+	EndGlobalSection
+EndGlobal
