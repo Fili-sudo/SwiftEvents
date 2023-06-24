@@ -49,10 +49,8 @@ Azure Portal și serviciului de mail SendGrid:
   }
 ```
 3. 
-    * Dacă s-a instalat Visual Studio 2022, se deschide Project Manager Console (PMC), se setează ca Default Project `SwiftEvents.Data_Access`  
-    și se rulează comanda: `Update-Database`
-    * Dacă nu, se deschide un terminal și se rulează comanda: `dotnet tool install --global dotnet-ef`, mai apoi se deschide  
-    un terminal în `SwiftEvents/backend/SwiftEvents.API/SwiftEvents.API` și se rulează comanda: `dotnet ef database update`
+    * Dacă s-a instalat Visual Studio 2022, se deschide Project Manager Console (PMC), se setează ca Default Project `SwiftEvents.Data_Access` și se rulează comanda: `Update-Database`
+    * Dacă nu, se deschide un terminal și se rulează comanda: `dotnet tool install --global dotnet-ef`, mai apoi se deschide un terminal în `SwiftEvents/backend/SwiftEvents.API/SwiftEvents.API` și se rulează comanda: `dotnet ef database update`
 4. se deschide un terminal în `SwiftEvents/frontend` și se rulează comanda `npm install`
 5. se deschide un terminal în  `SwiftEvents/backend/SwiftEvents.API/SwiftEvents.API` și se rulează comanda `dotnet run`
 6. folosind terminalul deschis din `SwiftEvents/frontend`, se rulează comanda `npm start`
